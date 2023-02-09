@@ -5,6 +5,7 @@
 ## Experiment 1:
 
 ### 1. Area of Circle
+
 ```c
 #include<stdio.h>
 int main()
@@ -18,7 +19,9 @@ int main()
     return 0;
 }
 ```
+
 ### 2. Gross Salary
+
 ```c
 #include<stdio.h>
 int main ()
@@ -34,10 +37,12 @@ int main ()
 	return 0;
 }
 ```
+
 ### 3. Sum of n Natural Numbers
+
 ```c
 #include<stdio.h>
-int main() 
+int main()
 {
     int n;
     printf("Enter number n : ");
@@ -52,9 +57,11 @@ int main()
     return 0;
 }
 ```
+
 ## Experiment 2:
 
-### 1. Arithmatic Operator
+### 1. Arithmetic Operator
+
 ```c
 #include<stdio.h>
 int main()
@@ -78,7 +85,9 @@ int main()
     return 0;
 }
 ```
+
 ### 2. Relational, Logical & Assignment Operator
+
 ```c
 #include<stdio.h>
 int main()
@@ -88,7 +97,7 @@ int main()
  scanf("%d %d",&A,&B);
  sum=A+B;
  printf("Sum of A and B is: %d\n",sum);
- 
+
  if(sum>1 && sum<20)
  {
  printf("Sum is between 1 and 20");
